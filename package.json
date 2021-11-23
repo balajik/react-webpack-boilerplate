@@ -1,0 +1,16 @@
+{
+  "name": "react-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "A react and webpack boilerplate for web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Webpack",
+    "boilerplate"
+  ],
+  "author": "BalajiK",
+  "license": "ISC"
+}
