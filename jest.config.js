@@ -10,15 +10,11 @@ module.exports = {
   testURL: 'http://localhost',
   transformIgnorePatterns: ['<rootDir>/node_modules/'],
   verbose: false,
-  setupFilesAfterEnv: [
-    '@testing-library/jest-dom/extend-expect'
-  ],
+  setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
   moduleNameMapper: {
-    '\\.(jpg|jpeg|png|gif|eot|otf|svg|ttf|woff|woff2)$': '<rootDir>/test/fileMock.js',
+    '\\.(jpg|jpeg|png|gif|eot|otf|svg|ttf|woff|woff2)$':
+      '<rootDir>/test/fileMock.js',
     '\\.(css|scss)$': 'identity-obj-proxy'
   },
-  moduleDirectories: [
-    'node_modules',
-    'test'
-  ]
+  moduleDirectories: ['node_modules', 'test']
 };
