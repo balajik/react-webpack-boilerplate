@@ -27,6 +27,9 @@ module.exports = {
       "unnamedComponents": "arrow-function"
     }],
     "arrow-body-style": ["error", "always"],
-    "react/jsx-filename-extension": ["error", { "extensions": [".test.js", ".jsx"] }]
+    "react/jsx-filename-extension": ["error", { "extensions": [".test.js", ".jsx"] }],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "import/no-import-module-exports": "off"
   }
 };

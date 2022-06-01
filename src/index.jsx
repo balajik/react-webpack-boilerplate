@@ -1,13 +1,12 @@
-/* eslint-disable import/no-import-module-exports */
-import React from 'react';
+import { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <StrictMode>
     <App text="React and Webpack" />
-  </React.StrictMode>,
+  </StrictMode>,
   document.getElementById('root')
 );
 

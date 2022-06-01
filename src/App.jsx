@@ -1,4 +1,3 @@
-import React from 'react';
 import { string } from 'prop-types';
 import styles from './App.module.css';
 import ReactLogo from './assets/images/react-logo.svg';
